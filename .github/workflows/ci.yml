@@ -24,3 +24,5 @@ jobs:
         run: echo "Deploying with token $APP_TOKEN"
         env:
           APP_TOKEN: ${{ secrets.APP_TOKEN }}
+
+# re-running theyml files
